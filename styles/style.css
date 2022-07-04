@@ -34,3 +34,37 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exprience-items{
+    display: flex;
+    padding: 5%;
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+#full-web-dev{
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #000;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    margin-right: 30px;
+}
+#baby-web-dev{
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #000;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    margin-left: 30px;
+}
+
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+    height: 50px;
+    background-color: rgb(44, 39, 39);
+    margin-bottom: 10px;
+}
